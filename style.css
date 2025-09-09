@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container-cores {
+    display: flex;
+    gap: 20px;
+}
+.original,
+.mais-clara,
+.mais-escura {
+    width: 150px;
+    height: 150px;
+}
+.original {
+    background-color: rgb(219, 78, 68);
+}
+.mais-clara {
+    background-color: rgb(243, 142, 137);
+}
+.mais-escura {
+    background-color: rgb(195, 14, 2);
+}
