@@ -1,26 +1,22 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+html { font-size: 20px;
 }
-.container-cores {
-    display: flex;
-    gap: 20px;
+html h1 {
+    font-size: 2rem;
 }
-.original,
-.mais-clara,
-.mais-escura {
-    width: 150px;
-    height: 150px;
+h1 > .principal {
+    font-size: 1.4em;
 }
-.original {
-    background-color: rgb(219, 78, 68);
+html .secundario {
+    font-size: 1.4rem;
 }
-.mais-clara {
-    background-color: rgb(243, 142, 137);
+
+.cor {
+    background: rgb(219, 78, 68);
 }
-.mais-escura {
-    background-color: rgb(195, 14, 2);
+
+.cor-clara {
+    background: rgb(252, 90, 78);
+}
+.cor-escura {
+    background: rgb(186, 66, 58);
 }
